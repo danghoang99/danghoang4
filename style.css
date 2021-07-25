@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.menu {
+	width: 100%;
+	height: 144px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: #7482fd;
+}
+.menu img {
+	width: 150px;
+	height:150px;
+	margin-bottom: -80px;
+}
+.menu img:hover {
+	opacity: 0.8;
+}
+.menu ul {
+	list-style: none;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 0 16px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 20px;
+}
+.menu ul li a:hover {
+	color: red;
+}
+.slide {
+	margin: 100px 140px;
+	box-sizing: border-box;
+}
+.slide img{
+	margin-top: 20px;
+}
+.help {
+	margin-bottom: 30px;
+}
+.help h2 {
+	text-align: center;
+}
+.help .help2 ul {
+	text-align: center;
+}
+.help .help2 ul li {
+	display: inline-flex;
+}
+.help .help2 ul li button, .mua button {
+	margin-top: 50px;
+	border: 1px solid #f4a84e;
+	background-color: #f83ede;
+	border-radius: 50px;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+.help .help2 ul li button:hover, .mua button:hover {
+	background-color: #f4a84e;
+}
+.help .help2 ul li button a, .mua a {
+	color: white;
+	text-decoration: none;
+}
+.help .help2 ul li button a:hover {
+	color: blue;
+}
+.help .help2 ul li .tach {
+	margin: 0 100px;
+}
+.info {
+	text-align: center;
+	padding: 40px;
+	background-color: green;
+}
+.info .info-site {
+	line-height: center;
+}
+.info .info-site a {
+	text-decoration: none;
+}
+.info .info-site a:hover {
+	color: red;
+}
+.sp, .ten, .gia, .mua button {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+.sp img {
+	width: 260px;
+	height: 500px;
+}
+.ten div {
+	font-size:20px;
+}
+.gia div {
+	font-size: 45px;
+	color: pink;
+	cursor: pointer;
+}
+.gia div:hover {
+	color: gold;
+}
+.gia span {
+	font-size: 20px;
+}
+.mua button {
+	display: inline-block;
+}
+@media screen and (max-width: 970px) {
+	.menu ul li a {
+		font-size: 30px;
+	}
+	.menu img {
+		width: 160px;
+		height: 160px;
+	}
+	.slide img {
+		width: 926px;
+		height: 843px;
+	}
+	.help h2 {
+		font-size: 70px;
+	}
+	.help .help2 ul li button, .mua button {
+		padding: 20px 60px;
+	}
+	.help .help2 ul li button a, .ten div {
+		font-size: 30px;
+	}
+	.info {
+		font-size: 30px;
+	}
+	.info .info-site a:hover {
+		color: red;
+	}
+	.container h2 {
+		font-size: 35px;
+	}
+	.sp img {
+		width: 280px;
+		height: 520px;
+	}
+	.gia div {
+		font-size: 60px;
+	}
+	.gia span {
+		font-size: 35px;
+	}
+}
